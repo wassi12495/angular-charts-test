@@ -1,0 +1,7 @@
+<ngx-charts-bar-vertical [results]="data" [view]="view">
+  <ul>
+    <li *ngFor="let datum of data">
+      <em>{{ datum.name }}:</em> {{ datum.value }}
+    </li>
+  </ul>
+</ngx-charts-bar-vertical>

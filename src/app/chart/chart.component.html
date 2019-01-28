@@ -1,0 +1,9 @@
+<!-- <ngx-charts-pie-chart [results]="data" [view]="view"></ngx-charts-pie-chart> -->
+<div>
+  <div *ngIf="this.chart === 'barchart'">
+    <app-bar-chart [data]="this.data"></app-bar-chart>
+  </div>
+  <div *ngIf="this.chart === 'piechart'">
+    <app-pie-chart [data]="this.data"></app-pie-chart>
+  </div>
+</div>
